@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS Layout Classes</title>
+  <link rel="stylesheet" href="reset.css">
+  <style>
+    /* stylelint-disable block-no-empty */
+    body {
+      font-family: sans-serif;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .container {
+      max-width: 992px;
+      margin: auto;
+    }
+
+    .row {
+      width: 100%;
+      display: flex;
+    }
+
+    .column {
+      flex-basis: calc(100% / 3);
+      padding-left: 8px;
+      padding-right: 8px;
+    }
+
+    img {
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Complete the HTML here -->
+  <h1>The Godfather Trilogy</h1>
+  <div class="container">
+    <div class="row">
+      <div class="column">
+        <img src="images/Godfather1.jpg" alt="Godfather Part 1">
+        <p><strong>The Godfather Part 1</strong></p>
+        <p>This film is a mob drama, based on Mario Puzo's novel of the same name, focuses on the powerful Italian-American crime family of
+        Don Vito Corleone (Marlon Brando). When the don's youngest son, Michael (Al Pacino), reluctantly joins the Mafia, he
+        becomes involved in the inevitable cycle of violence and betrayal. Although Michael tries to maintain a normal
+        relationship with his wife, Kay (Diane Keaton), he is drawn deeper into the family business.</p>
+      </div>
+      <div class="column">
+        <img src="images/Godfather2.jpg" alt="Godfather Part 2">
+        <p><strong>The Godfather Part 2</strong></p>
+        <p>The compelling sequel to &quot;The Godfather,&quot; contrasting the life of Corleone father and son. Traces the problems of
+        Michael Corleone (Al Pacino) in 1958 and that of a young immigrant Vito Corleone (Robert De Niro) in 1917's Hell's
+        Kitchen. Michael survives many misfortunes and Vito is introduced to a life of crime.</p>
+      </div>
+      <div class="column">
+        <img src="images/Godfather3.jpg" alt="Godfather Par 3">
+        <p><strong>The Godfather Part 3</strong></p>
+        <p>As Michael Corleone (Al Pacino) ages, he finds that being the head of the Corleone crime family isn't getting any
+        easier. He wants his family out of the Mafia, but the mob kingpin (Eli Wallach) isn't eager to let one of the most
+        powerful and wealthy families go legit. Making matters even worse is Michael's nephew, Vincent (Andy Garcia). Not only
+        does Vincent want a piece of the Corleone family's criminal empire, but he also wants Michael's daughter, Mary (Sofia
+        Coppola).</p>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>
